@@ -11,6 +11,7 @@ conn.reply(m.chat, `${eg}𝙀𝙇/𝙇𝘼 𝙐𝙎𝙐𝘼𝙍𝙄𝙊(𝘼) �
 handler.help = ['unbanuser']
 handler.tags = ['owner']
 handler.command = /^unbanuser$/i
+handler.limit = 1
 handler.group = true
 handler.admin = true 
 export default handler

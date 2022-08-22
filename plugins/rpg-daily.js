@@ -3,16 +3,14 @@ const prem = 20000
 
 let handler = async (m, { isPrems }) => {
   let time = global.db.data.users[m.sender].lastclaim + 86400000
-  if (new Date - global.db.data.users[m.sender].lastclaim < 86400000) throw `🎁 *Ya recogiste tu recompensa diaria*\n\n🕚 Vuelve en *${msToTime(time - new Date())}* `
+  if (new Date - global.db.data.users[m.sender].lastclaim < 86400000) throw `┌──「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─\n ├❏ 🎁 *Ya recogiste tu recompensa diaria\n├❏🕚 Vuelve en${msToTime(time - new Date())}n/└────ׂ─ׂ─ׂ─ׂ───`
   global.db.data.users[m.sender].exp += isPrems ? prem : free
   m.reply(`
-╭ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ
-┆❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣
-┆┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─  
-┆🎁 *RECOMPENSA DIARIA*
-┆▢ *Has recibido:*
-┆🆙 *XP* : +${isPrems ? prem : free}
-└──────────────`)
+┌──「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─
+├❏🎁 *RECOMPENSA DIARIA*
+├❏▢ *Has recibido:*
+├❏🆙 *XP* : +${isPrems ? prem : free}
+└────ׂ─ׂ─ׂ─ׂ───`)
   global.db.data.users[m.sender].lastclaim = new Date * 1
 }
 handler.help = ['daily']
@@ -36,4 +34,3 @@ function msToTime(duration) {
 
   return hours + " Horas " + minutes + " Minutos"
 }
-

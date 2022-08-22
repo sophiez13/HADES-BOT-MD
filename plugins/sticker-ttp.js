@@ -8,4 +8,5 @@ throw stiker.toString()
 handler.help = ['ttp <teks>']
 handler.tags = ['sticker']
 handler.command = /^ttp$/i
+handler.limit = 1
 export default handler

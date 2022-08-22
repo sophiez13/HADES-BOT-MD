@@ -8,6 +8,7 @@ conn.sendButton(m.chat, 'Nyaww~ 🐾💗', wm, neko, [['◀️𝚂𝙸𝙶𝚄�
 handler.command = /^(neko)$/i
 handler.tags = ['anime']
 handler.help = ['neko']
+handler.limit = 1
 export default handler
 function pickRandom(list) {
 return list[Math.floor(Math.random() * list.length)]

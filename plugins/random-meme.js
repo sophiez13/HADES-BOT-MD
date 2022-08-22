@@ -8,6 +8,7 @@ conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['◀️𝚂𝙸�
 handler.help = ['meme']
 handler.tags = ['random']
 handler.command = /^(meme)$/i
+handler.limit = 1
 export default handler
 
 function pickRandom(list) {

@@ -9,4 +9,5 @@ conn.sendButton(m.chat, `_${command}_`, author, mystic, [['◀️𝚂𝙸𝙶�
 handler.help = ['itzy','kpopitzy']
 handler.tags = ['internet']
 handler.command = /^(itzy|kpopitzy)$/i
+handler.limit = 1
 export default handler

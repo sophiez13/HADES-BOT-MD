@@ -7,4 +7,5 @@ conn.sendButton(m.chat, "*Siiiuuuuuu*", author, url, [['⚽ SIGUIENTE ⚽', `${u
 handler.help = ['cristianoronaldo']
 handler.tags = ['internet']
 handler.command = /^(cristianoronaldo)$/i
+handler.limit = 1
 export default handler

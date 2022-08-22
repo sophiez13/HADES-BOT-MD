@@ -9,4 +9,5 @@ conn.sendButton(m.chat, `_Navidad 🧑‍🎄_`, author, mystic, [['◀️𝚂�
 handler.help = ['navidad']
 handler.tags = ['internet']
 handler.command = /^(navidad)$/i
+handler.limit = 1
 export default handler

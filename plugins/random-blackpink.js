@@ -8,4 +8,5 @@ conn.sendButton(m.chat, `_${command}_`, author, randomkpopx, [['◀️𝚂𝙸�
 handler.help = ['blackpink']
 handler.tags = ['internet']
 handler.command = /^(blackpink)$/i
+handler.limit = 1
 export default handler
