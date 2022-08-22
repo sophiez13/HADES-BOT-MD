@@ -24,4 +24,5 @@ m.reply('*Traducción:* ' +  result[0]) }}
 handler.help = ['translate', 'traducir']
 handler.tags = ['General']
 handler.command = /^(tr(anslate)|traducir?)$/i
+handler.limit = 1
 export default handler

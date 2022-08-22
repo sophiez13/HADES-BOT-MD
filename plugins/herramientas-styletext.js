@@ -6,6 +6,7 @@ conn.reply(m.chat, Object.entries(await stylizeText(text ? text : m.quoted && m.
 handler.help = ['style'].map(v => v + ' <text>')
 handler.tags = ['tools']
 handler.command = /^(style(text)?)$/i
+handler.limit = 1
 handler.exp = 0
 export default handler
 

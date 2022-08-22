@@ -32,6 +32,7 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['subirestado']
 handler.tags = ['General']
 handler.command = /^subirestado$/i
+handler.limit = 1
 handler.register = false
 export default handler
 

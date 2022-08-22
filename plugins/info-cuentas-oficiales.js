@@ -1,28 +1,27 @@
-let media = './media/menus/Menuvid2.mp4'
+let media = 'https://i.imgur.com/NRv6b71.jpeg'
 let handler = async (m, { conn, command }) => {
 let str = `
-💙 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼 𝙇𝘼𝙎 𝘾𝙐𝙀𝙉𝙏𝘼𝙎 𝙊𝙁𝙄𝘾𝙄𝘼𝙇𝙀𝙎
+┌──「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─
+├❏ ๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ 💙 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼 𝙇𝘼𝙎 𝘾𝙐𝙀𝙉𝙏𝘼𝙎 𝙊𝙁𝙄𝘾𝙄𝘼𝙇𝙀𝙎
 💜𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 𝘼𝘾𝘾𝙊𝙐𝙉𝙏𝙎
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✅ *GITHUB*
-*${md}*
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✅ *INSTAGRAM - ASISTENCIA*
-*${ig}*
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✅ *YOUTUBE*
-*${yt}*
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Si tienen dudas, sugerencias, o preguntas solo escriban por Instagram.*\n
-*If you have doubts, suggestions or questions just write on Instagram.*
+├❏───ׂ─ׂ─ׂ─ׂ─
+├❏✅ *GITHUB*
+├❏*${md}*
+├❏───ׂ─ׂ─ׂ─ׂ─
+├❏✅ *YOUTUBE*
+├❏${yt}
+├❏───ׂ─ׂ─ׂ─ׂ─
+├❏Si tienen dudas, sugerencias, o preguntas solo escriban por Instagram.*\n
+*If you have doubts, suggestions or questions just write on Instagram
+└────ׂ─ׂ─ׂ─ׂ───
 `.trim()
   
-conn.sendHydrated(m.chat, str, wm, media, 'https://youtu.be/dfc4akKNn6A', '𝙲𝚁𝙴𝙰𝙳𝙾𝚁', null, null, [
-['✧͢⃟ᤢ✨𝑮𝑹𝑼𝑷𝑶𝑺 𝑶𝑭𝑰𝑪𝑰𝑨𝑳𝑬𝑺 𝑫𝑬𝑳 𝑩𝑶𝑻✧͢⃟ᤢ🤖', '.grupos'],
-['🍷⃟👩‍💻𝑴𝑰 𝑪𝑹𝑬𝑨𝑫𝑶𝑹🍷⃟🤖', '#owner'],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ', '/menu']
+conn.sendHydrated(m.chat, str, wm, media, 'https://github.com/Yovanihades1212/HADES-BOT-MD.git', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+['𝐄𝐒𝐓𝐀𝐃𝐎', '.estado'],
+['𝐌𝐄𝐍𝐔', '/menu']
 ], m,)}
 
-handler.command = /^cuentasoficiales|gataig|cuentasgb|cuentagb|accounts|gataaccounts|account|iggata|cuentasdegata|cuentasdegatabot|cuentagatabot|cuentasgatabot$/i
+handler.command = /^cuentasoficiales|cuentasoficiales\$/i
 handler.exp = 35
+handler.limit = 1
 export default handler

@@ -7,4 +7,5 @@ avatar: await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.p
 handler.help = ['blur','difuminar2']
 handler.tags = ['maker']
 handler.command = /^(blur|difuminar2)$/i
+handler.limit = 1
 export default handler

@@ -14,62 +14,42 @@ const groups = chats.filter(([id]) => id.endsWith('@g.us'))
 const used = process.memoryUsage()
 const { restrict } = global.db.data.settings[conn.user.jid] || {}
 const { autoread } = global.opts
-let pp = './media/menus/Menu1.jpg'
+let pp = 'https://i.imgur.com/lkch77g.jpeg'
 let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
 
 let info = `
-╭━━━━[ ${gt} ]━━━━━⬣
-┃
-┃➥ *CREADORO | CREATOR*
-┃ღ *YOVANI 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CONTACTO | CONTACT* 
-┃ღ *${ig}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃𓃠 *VERSIÓN ACTUAL | VERSION*
-┃ღ ${vs}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *PREFIJO | PREFIX*
-┃ღ *${usedPrefix}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS PRIVADOS | PRIVATE CHAT*
-┃ღ *${chats.length - groups.length}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS DE GRUPOS | GROUP CHAT*
-┃ღ *${groups.length}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS EN TOTAL | TOTAL CHATS*
-┃ღ *${chats.length}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *ACTIVIDAD | ACTIVITY*
-┃ღ *${uptime}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *USUARIOS | USERS*
-┃ღ *${totalreg}* 
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *VELOCIDAD | SPEED*
-┃ღ  *${speed}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *AUTOREAD*
-┃ღ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *RESTRICT* 
-┃ღ ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'} 
-┃
-╰━━━[ 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣 ]━━⬣`.trim()
+┌──「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─
+├❏𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓
+├❏ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: YOVANI 
+├❏ [#️⃣] 𝙽𝙾° 𝙳𝙴𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁:
+├❏+5212411347465
+├❏[🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: ${usedPrefix}
+├❏[🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: ${chats.length - groups.length}
+├❏[🦜] 𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: ${groups.length}
+├❏[💡] 𝙲𝙷𝙰𝚃𝚂 𝚃𝙾𝚃𝙰𝙻𝙴𝚂: ${chats.length}
+├❏[🚀] 𝙰𝙲𝚃𝙸𝚅𝙸𝙳𝙰𝙳: ${uptime}
+├❏VERSIÓN ACTUAL | VERSION
+├❏ ${vs}
+├❏[🎩] 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜
+├❏[👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
+├❏${speed}
+├❏𝚖𝚒𝚕𝚒𝚜𝚎𝚐𝚞𝚗𝚍𝚘𝚜
+├❏[☑️] 𝙰𝚄𝚃𝙾𝚁𝙴𝙰𝙳: ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
+├❏[❗] 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃: ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
+└────ׂ─ׂ─ׂ─ׂ───`.trim()
 
-conn.sendHydrated(m.chat, info, wm, pp, 'https://youtu.be/dfc4akKNn6A', '𝙲𝙰𝙽𝙰𝙻 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴', null, null, [
-['👻️⃟⃪͡ꦽ𝑽𝑬𝑹 𝑮𝑹𝑼𝑷𝑶𝑺🧨️⃟⃪͡ꦽ', '#grupolista'],
-['👩‍💻️⃟⃪͡ꦽ𝑪𝑼𝑬𝑵𝑻𝑨𝑺 𝑶𝑭𝑰𝑪𝑰𝑨𝑳𝑬𝑺🍃️⃟⃪͡ꦽ', '/cuentasgb'],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ', '.menu']
+conn.sendHydrated(m.chat, info, wm, pp, 'https://github.com/Yovanihades1212/HADES-BOT-MD.git', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+['𝐌𝐄𝐍𝐔', '#menu'],
+['𝐄𝐒𝐓𝐀𝐃𝐎', '.estado']
 ], m,)
 //conn.reply(m.chat, info, m)
 }
 handler.help = ['infobot']
 handler.tags = ['info', 'tools']
 handler.command = /^(infobot|informacionbot)$/i
+handler.limit = 1
 export default handler
 
 function clockString(ms) {

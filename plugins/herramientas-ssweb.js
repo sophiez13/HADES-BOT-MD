@@ -9,4 +9,5 @@ conn.sendFile(m.chat, ss, 'error.png', url, m)
 handler.help = ['ss', 'ssf'].map(v => v + ' <url>')
 handler.tags = ['internet']
 handler.command = /^ss(web)?f?$/i
+handler.limit = 1
 export default handler

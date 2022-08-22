@@ -9,4 +9,5 @@ dog: text || 'im+stupid'
 handler.help = ['itssostupid', 'iss', 'stupid']
 handler.tags = ['maker']
 handler.command = /^(itssostupid|iss|stupid)$/i
+handler.limit = 1
 export default handler

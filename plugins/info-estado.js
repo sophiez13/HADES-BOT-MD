@@ -1,5 +1,12 @@
+/**
+POR FAVOR TENGAN LA AMABILIDAD Y BONDAD DE NO CAMBIAR MÍNIMAMENTE LOS CRÉDITOS DE GATABOT-MD, 
+SI VAS A AÑADIR TUS DATOS O CRÉDITOS, ESTA BIEN. PERO NO QUITEN LOS QUE YA ESTAN DE hades-bot-MD, GRACIAS 
+**/
+
+/** PLEASE BE KIND AND KINDNESS NOT TO MINIMALLY CHANGE GATABOT-MD CREDITS, 
+IF YOU ARE GOING TO ADD YOUR DATA  OR CREDITS, IT'S OK. BUT DO NOT REMOVE THOSE THAT ARE ALREADY FROM HADESBOT-MD, THANK YOU **/
 let handler = async (m, { conn, command, usedPrefix }) => {
-let picture = './media/menus/Menu1.jpg'
+let picture = 'https://i.imgur.com/lkch77g.jpeg'
 let name = await conn.getName(m.sender)
 let _uptime = process.uptime() * 1000
 let _muptime
@@ -8,34 +15,20 @@ _muptime = await new Promise(resolve => { process.once('message', resolve)
 setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado =`
-╭ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄
-┆⇶ ❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣
-┆┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄
-┆⇶💗 *¡Hola | Hi!* ${name}
-┆┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄
-┆⇶ *Versión de ${gt}*
-┆┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄
-┆⇶➥ ${vs}
-┆┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄
-┆⇶ ${global.opts['self'] ? '𝙋𝙍𝙄𝙑𝘼𝘿𝙊 - 𝙋𝙍𝙄𝙑𝘼𝙏𝙀' : '𝙋𝙐𝘽𝙇𝙄𝘾𝙊 - 𝙋𝙐𝘽𝙇𝙄𝘾'}
-┆┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄
-┆⇶Activo Durante | Active During* 
-┆⇶ ${uptime}
-┆⇶ *Usuario(s) | Users* 
-┆⇶ ${Object.keys(global.db.data.users).length} 
-┆⇶ Chat(s) Prohibido(s) | Forbidden Chats*
-┆⇶ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} 
-┆⇶Usuario(s) Prohibido(s) | Prohibited Urs*
-┆⇶ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
-╰─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄`.trim()
+┌──「🤖𝐄𝐒𝐓𝐀𝐃𝐎💖」─
+├❏๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ ${name}💖✨ 
+├❏${gt}
+├❏💎VERSIÓN:${vs}🥀
+├❏🔋𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:${uptime}
+├❏✔️BOT ATIVO🏧
+└────ׂ─ׂ─ׂ─ׂ───`.trim()
 
-conn.sendHydrated(m.chat, estado, wm, picture, '.https://wa.me/5212411347465', '.𝙲𝚁𝙴𝙰𝙳𝙾𝚁', null, null, [
-['ⓞ⃟👩‍💻𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑨𝑹𝑻𝑬ⓞ⃟👩', '.register‍'],
-['👩‍💻️⃟⃪͡ꦽ𝑽𝑬𝑳𝑶𝑪𝑰𝑫𝑨𝑫 | 𝑺𝑷𝑬𝑬𝑫✈️️⃟⃪͡ꦽ', '/ping'],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ', '.menu'],
+conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/Yovanihades1212/HADES-BOT-MD.git', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+['𝐌𝐄𝐍𝐔', '.menu'],
+['𝐆𝐑𝐔𝐏𝐎𝐒', '#grupos']
 ], m,)}
 
-/*conn.sendHydrated(m.chat, estado, wm, picture, 'https://github', '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓-𝙈𝘿❍͜͡➣', null, null, [
+/*conn.sendHydrated(m.chat, estado, wm, picture, '', '', null, null, [
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '#menu']
 ], m)}*/
 
