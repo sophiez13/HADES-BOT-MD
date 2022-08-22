@@ -9,18 +9,17 @@ await conn.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓❍͜͡➣|YOVANI ',
 body: 'Super Bot WhatsApp',         
-previewType: 1, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
+previewType: 1, thumbnail: fs.readFileSync("./src/admins.jpg"),
 sourceUrl: `${yt}`}}})
    
 await conn.sendHydrated(m.chat, null, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
-['👻️⃟⃪͡ꦽ𝑽𝑬𝑹 𝑮𝑹𝑼𝑷𝑶𝑺🧨️⃟⃪͡ꦽ', '#grupolista'],
-['👩‍💻️⃟⃪͡ꦽ𝑪𝑼𝑬𝑵𝑻𝑨𝑺 𝑶𝑭𝑰𝑪𝑰𝑨𝑳𝑬𝑺🍃️⃟⃪͡ꦽ', '/cuentasgb'],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ', '.menu']
+['𝐄𝐒𝐓𝐀𝐃𝐎', '#estado'],
+['𝐌𝐄𝐍𝐔', '.menu']
 ], m,)
    
 }
 handler.help = ['premlist']
 handler.tags = ['owner']
 handler.command = /^(listprem|premlist)$/i
-
+handler.limit = 1
 export default handler

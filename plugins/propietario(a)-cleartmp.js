@@ -23,5 +23,6 @@ handler.help = ['cleartmp']
 handler.tags = ['owner']
 handler.command = /^(cleartmp|cleartemp|borrartmp|eliminartmp|borrartemp|borrartemp)$/i
 handler.exp = 500
+handler.limit = 1
 handler.rowner = true
 export default handler
