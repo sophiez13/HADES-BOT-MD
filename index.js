@@ -1,4 +1,4 @@
-console.log('Iniciando | Starting 🚀🚀🚀')
+console.log('✔️Iniciando...')
 
 import { join, dirname } from 'path'
 import { createRequire } from "module";
@@ -9,10 +9,9 @@ import cfonts from 'cfonts';
 import { createInterface } from 'readline'
 import yargs from 'yargs'
 
-// https://stackoverflow.com/a/50052194
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const require = createRequire(__dirname) // Bring in the ability to create the 'require' method
-const { name, author } = require(join(__dirname, './package.json')) // https://www.stefanjudis.com/snippets/how-to-import-json-files-in-es-modules-node-js/
+const require = createRequire(__dirname) 
+const { name, author } = require(join(__dirname, './package.json')) 
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
@@ -37,10 +36,7 @@ say(`EL MEJOR BOT DE WHATSAPP 2022 LA MEJOR CALIDAD Y SERVICIO DE WHATSAPP HADES
 })
 
 var isRunning = false
-/**
- * Start a js file
- * @param {String} file `path/to/file`
- */
+
 function start(file) {
   if (isRunning) return
   isRunning = true
@@ -82,7 +78,6 @@ function start(file) {
     if (!rl.listenerCount()) rl.on('line', line => {
       p.emit('message', line.trim())
     })
-  // console.log(p)
 }
 
 start('main.js')

@@ -1,19 +1,18 @@
+import fs from 'fs'
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
-//⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰
 global.owner = [
-  ['5212411347465', 'HADES_BOT', true],
+  ['5212411347465', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
   ['5212412737467'],
   ['5212411719888'],
   ['5212411453522'],
 ]
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 global.mods = [] 
 global.prems = ['5212411347465'], 
-
+global.prems = [] 
 global.APIs = { // API Prefix.
   
 //⊱ ━━━━━.⋅ name: 'https://website' ⋅.━━━━ ⊰
@@ -70,8 +69,8 @@ global.APIKeys = { // APIKey Here
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = 'HADES_BOT'
-global.author = 'YOVANI'
+global.packname = '𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ'
+global.author = '𓈃ּ ៹🍏𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -81,22 +80,22 @@ global.author = 'YOVANI'
 global.vs = '1.0.30'
 global.version = vs
 
-global.gt = 'HADES_BOT'
-global.gatabot = gt
+global.gt = '𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ'
+global.hadesbot = gt
 
-global.yt = 'https://youtub'
+global.yt = 'https://youtu.be/aPu9wQi-z8U'
 global.youtube = yt
 
 global.ig = 'https://www.instagram'
-global.gatadiosig = ig
+global.hadesig = ig
 
-global.md = 'https://github'
-global.gatabot = md
+global.md = 'https://github.com/Yovanihades1212/HADES-BOT-MD.git'
+global.hadesbot = md
 
-global.nn = 'https://chat.whatsap'
+global.nn = 'https://chat.whatsapp.com/CG5ZPcJ22fL7QjNRzjguD0'
 global.nngrupo = nn
 
-global.nnn = 'https://chat.whatsa'
+global.nnn = 'https://chat.whatsapp.com/DDm7HC6e5MF9qcdLqB22RQ'
 global.nnngrupo = nnn
 
 global.paypal = 'https://pay'
@@ -133,13 +132,16 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝐘𝐎𝐕𝐀𝐍𝐈 𝐎𝐅𝐈𝐂𝐈𝐀𝐋|𝐘𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓'
-global.igfg = '𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓'
+global.wm = '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸|𝙷𝚊𝚍𝚎𝚜-𝚋𝚘𝚝-𝙼𝙳'
+global.igfg = '𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ'
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+global.imagen1 = fs.readFileSync('./src/Menu2.jpg')
+global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
+global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 
-global.multiplier = 550 // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup
+
+global.multiplier = 9999 
 
 global.rpg = {
   emoticon(string) {
