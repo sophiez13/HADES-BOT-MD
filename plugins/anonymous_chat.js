@@ -42,4 +42,5 @@ handler.help = ['start', 'leave', 'next']
 handler.tags = ['anonymous']
 handler.command = ['start', 'leave', 'next']
 handler.private = true
+handler.limit = 1
 export default handler

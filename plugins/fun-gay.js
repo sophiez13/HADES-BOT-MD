@@ -11,4 +11,5 @@ ptt: true })
 handler.help = ['gay']
 handler.tags = ['maker']
 handler.command = /^(gay)$/i
+handler.limit = 1
 export default handler

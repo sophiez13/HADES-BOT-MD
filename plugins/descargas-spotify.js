@@ -32,4 +32,5 @@ throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙽𝙾 𝚂𝙴 𝙻�
 handler.command = /^(spotify|music)$/i
 handler.help = ['spotify']
 handler.tags = ['general']
+handler.limit = 2
 export default handler

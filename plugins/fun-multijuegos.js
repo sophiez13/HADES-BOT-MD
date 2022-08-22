@@ -69,15 +69,14 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 if (command == 'multijuegos') { 
   global.db.data.users[m.sender].limit += 1
 
-              //let hades = `${pickRandom([`𝙋𝙪𝙚𝙙𝙚𝙨 𝙂𝙖𝙣𝙖𝙧 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨 𝙖𝙡 𝙅𝙪𝙜𝙖𝙧!!`,`𝙎𝙞𝙜𝙪𝙚 𝙟𝙪𝙜𝙖𝙣𝙙𝙤 𝙥𝙖𝙧𝙖 𝙜𝙖𝙣𝙖𝙧 ❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣!!`,`𝙎𝙖𝙗𝙞𝙖𝙨 𝙦𝙪𝙚 𝙥𝙪𝙚𝙙𝙚𝙨 𝙂𝙖𝙣𝙖𝙧 𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙞𝙖 𝙖𝙡 𝙅𝙪𝙜𝙖𝙧? 𝘼𝙝𝙤𝙧𝙖 𝙮𝙖 𝙡𝙤 𝙨𝙖𝙗𝙚𝙨!!`])}`
-            //let s = `Bienvenido al Multijuegos Aleeatorios`
+              
 
  const templateButtonsReplyMessage = [
 {index: 1, urlButton: {displayText: '𝙲𝙰𝙽𝙰𝙻 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴', url: 'https://youtu.be/aPu9wQi-z8U'}},
 {index: 2, urlButton: {displayText: '𝐆𝐫𝐮𝐩𝐨 𝐝𝐞 𝐟𝐚𝐜𝐞𝐛𝐨𝐨𝐤:', url: 'https://www.facebook.com/groups/987464505464904/'}},
-{index: 3, quickReplyButton: {displayText: '✧͢⃟ᤢ🎮𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', id: '.juegos'}},
-{index: 4, quickReplyButton: {displayText: '✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', id: '/Menujuegos'}},
-{index: 5, quickReplyButton: {displayText: '️🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ', id: '#menu'}},
+{index: 3, quickReplyButton: {displayText: '𝐌𝐄𝐍𝐔', id: '.menu'}},
+{index: 4, quickReplyButton: {displayText: '𝐄𝐒𝐓𝐀𝐃𝐎', id: '/estado'}},
+{index: 5, quickReplyButton: {displayText: '𝐆𝐑𝐔𝐏𝐎𝐒 ️', id: '#grupos'}},
 ]
  
 let t = {
@@ -106,9 +105,9 @@ conn.sendMessage(m.chat, t, m)
  const templateButtonsReplyMessage = [
 {index: 1, urlButton: {displayText: '𝙲𝙰𝙽𝙰𝙻 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴', url: 'https://youtu.be/aPu9wQi-z8U'}},
 {index: 2, urlButton: {displayText: '𝐆𝐫𝐮𝐩𝐨 𝐝𝐞 𝐟𝐚𝐜𝐞𝐛𝐨𝐨𝐤:', url: 'https://www.facebook.com/groups/987464505464904/'}},
-{index: 3, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis1}`, id: juegos}},
-{index: 4, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis2}`, id: juegos2}},
-{index: 5, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis3}`, id: juegos3}},
+{index: 3, quickReplyButton: {displayText: '𝐌𝐄𝐍𝐔', id: '.menu'}},
+{index: 4, quickReplyButton: {displayText: '𝐄𝐒𝐓𝐀𝐃𝐎', id: '/estado'}},
+{index: 5, quickReplyButton: {displayText: '𝐆𝐑𝐔𝐏𝐎𝐒 ️', id: '#grupos'}},
 ]
  
 let tt = {
@@ -136,9 +135,9 @@ conn.sendMessage(m.chat, tt, m)
  const templateButtonsReplyMessage = [
 {index: 1, urlButton: {displayText: '𝙲𝙰𝙽𝙰𝙻 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴', url: 'https://youtu.be/aPu9wQi-z8U'}},
 {index: 2, urlButton: {displayText: '𝐆𝐫𝐮𝐩𝐨 𝐝𝐞 𝐟𝐚𝐜𝐞𝐛𝐨𝐨𝐤:', url: 'https://www.facebook.com/groups/987464505464904/'}},
-{index: 3, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis1}`, id: juegos}},
-{index: 4, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis2}`, id: juegos2}},
-{index: 5, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis3}`, id: juegos3}},
+{index: 3, quickReplyButton: {displayText: '𝐌𝐄𝐍𝐔', id: '.menu'}},
+{index: 4, quickReplyButton: {displayText: '𝐄𝐒𝐓𝐀𝐃𝐎', id: '/estado'}},
+{index: 5, quickReplyButton: {displayText: '𝐆𝐑𝐔𝐏𝐎𝐒 ️', id: '#grupos'}},
 ]
 let ttt = {
 text: sss,
@@ -164,9 +163,9 @@ conn.sendMessage(m.chat, ttt, m)
  const templateButtonsReplyMessage = [
 {index: 1, urlButton: {displayText: null, url: null}},
 {index: 2, urlButton: {displayText: null, url: null}},
-{index: 3, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis1}`, id: juegos}},
-{index: 4, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis2}`, id: juegos2}},
-{index: 5, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis3}`, id: juegos3}},
+{index: 3, quickReplyButton: {displayText: '𝐌𝐄𝐍𝐔', id: '.menu'}},
+{index: 4, quickReplyButton: {displayText: '𝐄𝐒𝐓𝐀𝐃𝐎', id: '/estado'}},
+{index: 5, quickReplyButton: {displayText: '𝐆𝐑𝐔𝐏𝐎𝐒 ️', id: '#grupos'}},
 ]
 let tttt = {
 text: ssss,
@@ -192,9 +191,9 @@ conn.sendMessage(m.chat, tttt, m)
  const templateButtonsReplyMessage = [
 {index: 1, urlButton: {displayText: null, url: null}},
 {index: 2, urlButton: {displayText: null, url: null}},
-{index: 3, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis1}`, id: juegos2}},
-{index: 4, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis2}`, id: juegos3}},
-{index: 5, quickReplyButton: {displayText: '✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', id: '/Menujuegos'}},
+{index: 3, quickReplyButton: {displayText: '𝐌𝐄𝐍𝐔', id: '.menu'}},
+{index: 4, quickReplyButton: {displayText: '𝐄𝐒𝐓𝐀𝐃𝐎', id: '/estado'}},
+{index: 5, quickReplyButton: {displayText: '𝐆𝐑𝐔𝐏𝐎𝐒 ️', id: '#grupos'}},
 ]
 let tttt = {
 text: ssss,
@@ -208,8 +207,7 @@ handler.help = ['infomenu'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
 handler.command = ['multijuegos', 'juegos']
 handler.group = true
-//handler.exp = 200
-//handler.money = 200
+handler.limit = 1
 export default handler
                               
 const more = String.fromCharCode(8206)

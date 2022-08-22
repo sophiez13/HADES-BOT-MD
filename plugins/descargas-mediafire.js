@@ -6,35 +6,27 @@ try {
 let res = await mediafiredl(args[0])
 let { url, url2, filename, ext, aploud, filesize, filesizeH } = res
 let caption = `
-╭ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ
-┆⇶ ❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣
-┆┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ
-┆❤ ️${eg}
-┆🍃${gt} ${vs}*
-┆┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ
-┆💫 𝙉𝙊𝙈𝘽𝙍𝙀 | 𝙉𝘼𝙈𝙀
-┆${filename}
-┆┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ
-┆ 💪 𝙋𝙀𝙎𝙊 |  𝙎𝙄𝙕𝙀
-┆❤️ ${filesizeH}
-┆┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ
-┆ 🚀 𝙏𝙄𝙋𝙊 | 𝙏𝙔𝙋𝙀
-┆🥀 ${ext}
-╰─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ`.trim()
+┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」
+├❏|❤|️${eg}
+├❏|💎|𝙽𝙾𝙼𝙱𝚁𝙴: ${filename}
+├❏|📥|𝙿𝙴𝚂𝙾: ${filesizeH}
+├❏|🏓|𝚃𝙸𝙿𝙾: ${ext}
+└────ׂ─ׂ─ׂ─ׂ───
+⌛ _Cargando..._
+▰▰▰▱▱▱▱▱▱⏳`.trim()
 conn.reply(m.chat, caption, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣|YOVANI ',
+title: '𝙶𝙸𝚃𝙷𝚄𝙱',
 body: 'Super Bot WhatsApp',         
-previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://github.com/GataNina-Li/GataBot-MD`}}})
+previewType: 0, thumbnail: fs.readFileSync("./src/Menu2.jpg"),
+sourceUrl: `https://github.com/Yovanihades1212/HADES-BOT-MD.git`}}})
   
 let info = `𝙈𝘼𝙔𝙊𝙍 𝘼 150 𝙈𝘽 𝙀𝙎 𝙋𝙊𝙎𝙄𝘽𝙇𝙀 𝙌𝙐𝙀 𝙉𝙊 𝙎𝙀 𝙀𝙉𝙑𝙄𝙀.
 
 𝙂𝙍𝙀𝘼𝙏𝙀𝙍 𝙏𝙃𝘼𝙉 150 𝙈𝘽 𝙈𝘼𝙔 𝙉𝙊𝙏 𝘽𝙀 𝙎𝙀𝙉𝙏.`.trim()  
 await conn.sendHydrated(m.chat, info, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
-['❤️⃟⃪͡🗃️𝐌𝐄𝐍𝐔 𝑫𝑬 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒❤️⃟⃪͡🎁', '/menúdescargas'],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ', '/menu'],
-['☙⃝✈️𝑽𝑬𝑳𝑶𝑪𝑰𝑫𝑨𝑫 𝑫𝑬𝑳 𝑩𝑶𝑻☙⃝🚀️', '/ping']
+['𝐌𝐄𝐍𝐔', '/menu'],
+['𝐄𝐒𝐓𝐀𝐃𝐎️', '/estado']
 ], m,)  
   
 conn.sendFile(m.chat, url, filename, '', m, null, { mimetype: ext, asDocument: true })
@@ -46,5 +38,7 @@ console.log(e)
 handler.help = ['mediafire'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(mediafire|mediafiredl|dlmediafire)$/i
+handler.limit = 3
 handler.exp = 100
 export default handler
+

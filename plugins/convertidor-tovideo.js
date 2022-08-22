@@ -22,4 +22,5 @@ await conn.sendFile(m.chat, out, 'error.mp4', '*DONE*', m, 0, { thumbnail: out }
 handler.help = ['tovideo']
 handler.tags = ['sticker']
 handler.command = ['tovideo']
+handler.limit = 1
 export default handler

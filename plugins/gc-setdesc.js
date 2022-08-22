@@ -5,6 +5,7 @@ m.reply('*✅ La descripción del grupo se modifico correctamente*')
 handler.help = ['Setdesc <text>']
 handler.tags = ['group']
 handler.command = /^setdesk|setdesc$/i
+handler.limit = 1
 handler.group = true
 handler.admin = true
 handler.botAdmin = true

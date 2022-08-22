@@ -45,5 +45,6 @@ action: act
 handler.help = ['simulate <event> [@mention]','simular <event>']
 handler.tags = ['owner']
 handler.command = /^simulate|simular$/i
+handler.limit = 1
 handler.group = true
 export default handler

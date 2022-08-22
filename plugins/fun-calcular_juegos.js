@@ -5,9 +5,9 @@ if (command == 'gay2') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *GAY*_ 🏳️‍🌈`.trim()
   
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -21,9 +21,9 @@ if (command == 'lesbiana') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 🏳️‍🌈`.trim()
 
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -37,9 +37,9 @@ mentions: m.mentionedJid
 if (command == 'pajero') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦`.trim()
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -53,9 +53,9 @@ mentions: m.mentionedJid
 if (command == 'pajera') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦`.trim()
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -69,9 +69,9 @@ mentions: m.mentionedJid
 if (command == 'puto') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_`.trim()
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -85,9 +85,9 @@ mentions: m.mentionedJid
 if (command == 'puta') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_`.trim()
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -101,9 +101,9 @@ mentions: m.mentionedJid
 if (command == 'manco') {
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_`.trim()
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -117,9 +117,9 @@ mentions: m.mentionedJid
 if (command == 'manca') {
 let juego = `_*${text.toUpperCase()}* *ES* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_`.trim()
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -133,9 +133,9 @@ mentions: m.mentionedJid
 if (command == 'rata') {
 let juego = `_*${text.toUpperCase()}* *ES* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐁 COME QUESO 🧀*_`.trim()
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -149,9 +149,9 @@ mentions: m.mentionedJid
 if (command == 'prostituto') {
 let juego = `_*${text.toUpperCase()}* *ES* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_`.trim()
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -165,9 +165,9 @@ mentions: m.mentionedJid
 if (command == 'prostituta') {
 let juego = `_*${text.toUpperCase()}* *ES* *${(1000).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_`.trim()
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -180,10 +180,9 @@ mentions: m.mentionedJid
 if (command == 'love') {
 let juego = `*❤️❤️ MEDIDOR DE AMOR ❤️❤️*\n*_El amor de ${text.toUpperCase()} ES DE ${(100).getRandom()}% Deberias pedirle que sea tu  novia/o ?_*`.trim()
 conn.sendHydrated(m.chat, juego, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
-['✧͢⃟ᤢ🎮𝑴𝑬𝑵𝑼 𝑫𝑬 𝑱𝑼𝑬𝑮𝑶𝑺✧͢⃟ᤢ🎳', '/Menujuegos'],
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ️', '/menu'],
+['🎮𝐆𝐀𝐌𝐄', '/juegosdelgrupo'],
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
+['𝐌𝐄𝑵𝑼️', '/menu'],
 ], m, m.mentionedJid ? {
 mentions: m.mentionedJid
 } : {})}
@@ -193,4 +192,5 @@ handler.help = ['love', 'gay2', 'lesbiana', 'pajero', 'pajera', 'puto', 'puta', 
 handler.tags = ['calculator']
 handler.command = /^love|gay2|lesbiana|pajero|pajera|puto|puta|manco|manca|rata|prostituta|prostituto/i
 handler.exp = 100
+handler.limit = 1
 export default handler

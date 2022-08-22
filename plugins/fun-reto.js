@@ -1,20 +1,17 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
 //conn.reply(m.chat,`*┌────「 RETO 」─*\n*“${pickRandom(global.bucin)}”*\n*└────「 Mystic 」─*`, m)
 conn.sendHydrated(m.chat, `
-╭─ׂ┄──ׂ┄┄ׅ─ ┄ׂ─ ┄ׅ
-┆𝙍𝙀𝙏𝙊 😏 
-┆──ׂ┄┄ׅ─┄ׂ─┄
-┆“${pickRandom(global.bucin)}”
-┆ ${vs} 
-╰─ׂ┄─ׅ─ׂ┄ `, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
-['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🧐', `${usedPrefix}reto`],
-['𝙏𝙤𝙥𝙨 | 𝙍𝙖𝙣𝙠𝙞𝙣𝙜 🏆', `${usedPrefix}top`],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪️', `${usedPrefix}menu`]
+┌──「𝙍𝙀𝙏𝙊 😏 」─
+├❏“${pickRandom(global.bucin)}”
+├❏ ${vs} 
+└────ׂ─ׂ─ׂ─ׂ── `, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
+['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🧐', `${usedPrefix}reto`],
 ], m,)}
 
 handler.help = ['reto']
 handler.tags = ['fun']
 handler.command = /^reto/i
+handler.limit = 1
 handler.fail = null
 export default handler
 

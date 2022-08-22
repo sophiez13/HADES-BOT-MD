@@ -8,8 +8,8 @@ let link = img
   
   conn.sendHydrated(m.chat, `💞 𝙍𝙚𝙨𝙪𝙡𝙩𝙖𝙙𝙤 | 𝙍𝙚𝙨𝙪𝙡𝙩: ${text}`, `𝙁𝙤𝙣𝙙𝙤 | 𝙒𝙥 | ${wm}`, img, img, '☘️ 𝙐𝙍𝙇', null, null, [
 ['◀️𝙎𝙞𝙜𝙪𝙞𝙚𝙣𝙩𝙚▶️ | 🍃𝙉𝙚𝙭𝙩', `${usedPrefix + command} ${text}`],
-['🔎️⃟⃪͡ꦽ𝑷𝑰𝑵𝑻𝑬𝑹𝑬𝑺𝑻🔍️⃟⃪͡', `#pinterest ${text}`],
-['🔎️⃟⃪͡ꦽ𝑮𝑶𝑶𝑮𝑳𝑬 🔍️⃟⃪͡', `#image ${text}`],
+['𝑷𝑰𝑵𝑻𝑬𝑹𝑬𝑺𝑻', '/pinterest'],
+['𝑮𝑶𝑶𝑮𝑳𝑬','/image'],
 ], m)
   
 }
@@ -17,4 +17,5 @@ handler.help = ['', '2'].map(v => 'wallpaper' + v + ' <query>')
 handler.tags = ['downloader']
 handler.command = /^(wp|wallpaper2?)$/i
 handler.exp = 29
+handler.limit = 2
 export default handler 

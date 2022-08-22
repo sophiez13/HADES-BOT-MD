@@ -1,42 +1,27 @@
-import fs from 'fs'
 import fetch from 'node-fetch'
-let handler = async (m, {command, conn, text, usedPrefix, args}) => {
-if (!text) throw `${mg}𝘿𝙀𝘽𝙀 𝙄𝙉𝙂𝙍𝙀𝙎𝘼𝙍 𝙐𝙉 𝙀𝙉𝙇𝘼𝘾𝙀 𝘿𝙀 𝙏𝙄𝙆𝙏𝙊𝙆 𝙋𝘼𝙍𝘼 𝘿𝙀𝙎𝘾𝘼𝙍𝙂𝘼𝙍 𝙀𝙇 𝙑𝙄𝘿𝙀𝙊\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} https://vm.tiktok.com/ZMLEPnruc/?k=1*\n\n𝙔𝙊𝙐 𝙈𝙐𝙎𝙏 𝙀𝙉𝙏𝙀𝙍 𝘼 𝙏𝙄𝙆𝙏𝙊𝙆 𝙇𝙄𝙉𝙆 𝙏𝙊 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 𝙑𝙄𝘿𝙀𝙊\n𝙀𝙓𝘼𝙈𝙋𝙇𝙀\n*${usedPrefix + command} https://vm.tiktok.com/ZMLEPnruc/?k=1*`
-//if (command == 'tiktokaudio') {
-//conn.reply(m.chat, `${eg}PRONTO TENDRA EL VIDEO DE TIKTOK*`, m, {
-//contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-//title: ❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣'|YOVANI ',
-//body: 'Super Bot WhatsApp',         
-//previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-//sourceUrl: `http hadesBot-MD`}}})
-           
-//let res = await fetch("https://api.dhamzxploit.my.id/api/tiktod/?url="+args[0])
-//let json = await res.json()
-//conn.sendFile(m.chat, json.result.audio, 'error.mp3', null, m, false, { mimetype: 'mp3/mp4' })}
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙽 𝙴𝙽𝙻𝙰𝙲𝙴/𝙻𝙸𝙽𝙺 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} https://vm.tiktok.com/ZML42vSnn/*`
+if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙽 𝙴𝙽𝙻𝙰𝙲𝙴/𝙻𝙸𝙽𝙺 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} https://vm.tiktok.com/ZML42vSnn/*`
+let url = (await fetch(text)).url
+let res = await (await fetch(`https://api2.musical.ly/aweme/v1/aweme/detail/?aweme_id=${url.split('?')[0].split('/')[5]}`)).json()
+let data = res.aweme_detail.video.play_addr.url_list
+if (!data.length) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝙻𝙰𝙼𝙴𝙽𝚃𝙾, 𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝙰𝙻 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*'
+let meta = await getInfo(url).catch(_ => {})
+await m.reply('⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱\n')
+let buttons = [{ buttonText: { displayText: '𝙰𝚄𝙳𝙸𝙾' }, buttonId: `${usedPrefix}mp3` }]
+conn.sendMessage(m.chat, { video: { url: data[data.length - 1] }, caption: '𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ', footer: await shortUrl(data[data.length - 1]), buttons }, { quoted: m })}
 
-conn.reply(m.chat, `${eg}𝙋𝙍𝙊𝙉𝙏𝙊 𝙏𝙀𝙉𝘿𝙍𝘼 𝙀𝙇 𝙑𝙄𝘿𝙀𝙊 𝘿𝙀 𝙏𝙄𝙆𝙏𝙊𝙆 \n𝙎𝙊𝙊𝙉 𝙒𝙄𝙇𝙇 𝙃𝘼𝙑𝙀 𝙏𝙃𝙀 𝙏𝙄𝙆𝙏𝙊𝙆 𝙑𝙄𝘿𝙀𝙊 🥳`, m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣|YOVANI ',
-body: 'Super Bot WhatsApp',         
-previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://hades`}}})
-  
-let res = await fetch("https://api.dhamzxploit.my.id/api/tiktod/?url="+args[0])
-let json = await res.json()
-await conn.sendFile(m.chat, json.result.nowatermark, 'error.mp4', `${wm}`, m)
-
-let info = `💖 *Infórmate sobre las Novedades y recuerda tener la última versión.*\n\n💝 *Find out about what's new and remember to have the latest version.*
-  `.trim()
-  
-await conn.sendHydrated(m.chat, info, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
-['❤️⃟⃪͡🗃️𝐌𝐄𝐍𝐔 𝑫𝑬 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒❤️⃟⃪͡🎁', '/menúdescargas'],
-['🥀️⃟⃪͡ꦽ𝑴𝑬𝑵𝑼🔖️⃟⃪͡ꦽ', '/menu'],
-['☙⃝✈️𝑽𝑬𝑳𝑶𝑪𝑰𝑫𝑨𝑫 𝑫𝑬𝑳 𝑩𝑶𝑻☙⃝🚀️', '/ping']
-], m,)   
-           
-}
-handler.help = ['tiktok'].map(v => v + ' <link>')
+handler.help = ['tiktok']
 handler.tags = ['downloader']
-handler.command = ['tiktok']
+handler.alias = ['tiktok', 'tikdl', 'tiktokdl', 'tiktoknowm']
+handler.command = /^(tt|tiktok)(dl|nowm)?$/i
+handler.limit = 2
 handler.exp = 60
 export default handler
+
+async function getInfo(url) {
+let id = url.split('?')[0].split('/')
+let res = await (await fetch(`https://www.tiktok.com/node/share/video/${id[3]}/${id[5]}/`)).json()
+return res?.seoProps?.metaParams}
+async function shortUrl(url) {
+return await (await fetch(`https://tinyurl.com/api-create.php?url=${url}`)).text()}
