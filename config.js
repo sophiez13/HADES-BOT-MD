@@ -4,14 +4,14 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['5212411347465', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
-  ['5212412737467'],
-  ['5212411719888'],
-  ['5212411453522'],
+  ['393518467166', '𝖌𝖍𝖔𝖘𝖙𝖑𝖞👻', true],
+  ['393518467166'],
+  ['393518467166'],
+  ['393518467166'],
 ]
 
 global.mods = [] 
-global.prems = ['5212411347465'], 
+global.prems = ['393518467166'], 
 global.prems = [] 
 global.APIs = { // API Prefix.
   
@@ -69,8 +69,8 @@ global.APIKeys = { // APIKey Here
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = '𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ'
-global.author = '𓈃ּ ៹🍏𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ'
+global.packname = '𝖌𝖍𝖔𝖘𝖙𝖑𝖞👻'
+global.author = '𝖌𝖍𝖔𝖘𝖙𝖑𝖞👻'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -80,25 +80,25 @@ global.author = '𓈃ּ ៹🍏𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸𐂂!s⁹⁷
 global.vs = '1.0.30'
 global.version = vs
 
-global.gt = '𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ'
+global.gt = '𝖌𝖍𝖔𝖘𝖙𝖑𝖞👻'
 global.hadesbot = gt
 
-global.yt = 'https://youtu.be/aPu9wQi-z8U'
+global.yt = 'https://youtu.be'
 global.youtube = yt
 
 global.ig = 'https://www.instagram'
 global.hadesig = ig
 
-global.md = 'https://github.com/Yovanihades1212/HADES-BOT-MD.git'
+global.md = 'https://github.com'
 global.hadesbot = md
 
-global.nn = 'https://chat.whatsapp.com/CG5ZPcJ22fL7QjNRzjguD0'
+global.nn = 'https://chat.whatsapp.com/CQWbLgSFa6a06ciHtVErYr'
 global.nngrupo = nn
 
-global.nnn = 'https://chat.whatsapp.com/DDm7HC6e5MF9qcdLqB22RQ'
+global.nnn = 'https://chat.whatsapp.com/CQWbLgSFa6a06ciHtVErYr'
 global.nnngrupo = nnn
 
-global.paypal = 'https://pay'
+global.paypal = 'https://paypal.me/ghostlyIT'
 global.donar = paypal
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
@@ -132,8 +132,8 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸|𝙷𝚊𝚍𝚎𝚜-𝚋𝚘𝚝-𝙼𝙳'
-global.igfg = '𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ'
+global.wm = '𝖌𝖍𝖔𝖘𝖙𝖑𝖞👻'
+global.igfg = '𝖌𝖍𝖔𝖘𝖙𝖑𝖞👻'
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
 global.imagen1 = fs.readFileSync('./src/Menu2.jpg')
